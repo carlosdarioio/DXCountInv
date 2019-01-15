@@ -5,7 +5,7 @@
 <head runat="server">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tittle</title>
+    <title>DevExpress</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" /> 
     <link href="~/Content/Site.css" rel="stylesheet" /> 
 
@@ -22,14 +22,15 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topMenu" aria-controls="topMenu" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Project name</a>
+                        <a class="navbar-brand" href="#">Conteo Inventario</a>
                     </div>
                     <div class="collapse navbar-collapse" id="topMenu">
                         <dx:BootstrapMenu ID="TopMenu" runat="server" ShowPopOutImages="True" ItemAutoWidth="false" ClientInstanceName="topMenu">
                             <CssClasses Control="top-menu" Menu="navbar-nav" />
                             <Items>
-                                <dx:BootstrapMenuItem Text="Home" Name="Home">
-                                </dx:BootstrapMenuItem>                                
+                                <dx:BootstrapMenuItem Text="Inicio" Name="Home">
+                                </dx:BootstrapMenuItem>
+                                
                             </Items>
                         </dx:BootstrapMenu>
                     </div>
@@ -43,32 +44,45 @@
                 <hr>
 
                 <footer>
-                    <p>&copy; <%: DateTime.Now.Year %> - Femosa copyright</p>
-                    <br />
-                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <div>                        
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topMenu" aria-controls="topMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topMenu2" aria-controls="topMenu2" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Meun</a>
+                        <a class="navbar-brand" href="#">Menu</a>
                     </div>
                     <div class="collapse navbar-collapse" id="topMenu2">
-                        <dx:BootstrapMenu ID="BootstrapMenu1" runat="server" ShowPopOutImages="True" ItemAutoWidth="false" ClientInstanceName="topMenu">
+                        <dx:BootstrapMenu ID="BootstrapMenu1" runat="server" ShowPopOutImages="True" ItemAutoWidth="false" ClientInstanceName="topMenu2">
                             <CssClasses Control="top-menu" Menu="navbar-nav" />
                             <Items>
-                                <dx:BootstrapMenuItem Text="Opcion1" Name="Opcion1">
+                                <dx:BootstrapMenuItem Text="Opcion1" Name="Home">
                                 </dx:BootstrapMenuItem>
-                                <dx:BootstrapMenuItem Text="Opcion2" Name="Opcion2">
+                                <dx:BootstrapMenuItem Text="Opcion2" Name="About">
                                 </dx:BootstrapMenuItem>
-                                
+                                <dx:BootstrapMenuItem Text="Opcion4" Name="Contact">
+                                </dx:BootstrapMenuItem>
+                                <dx:BootstrapMenuItem Text="Opcion5" Name="Contact">
+                                </dx:BootstrapMenuItem>
+                                <dx:BootstrapMenuItem Text="Opcion6" Name="Contact">
+                                </dx:BootstrapMenuItem>
+                                <dx:BootstrapMenuItem Text="Opcion7" Name="Contact">
+                                </dx:BootstrapMenuItem>
+                                <dx:BootstrapMenuItem Text="Opcion8" Name="Contact">
+                                </dx:BootstrapMenuItem>
+                                <dx:BootstrapMenuItem Text="Opcion9" Name="Contact">
+                                </dx:BootstrapMenuItem>
                             </Items>
                         </dx:BootstrapMenu>
                     </div>
                 </div>
             </nav>
+                    <br /><p>&copy; <%: DateTime.Now.Year %> - DevExpress ASP.NET project copyright</p>
+                    
                 </footer>
             </div>
     </form>
 </body>
-</html>
+
+    </html>
